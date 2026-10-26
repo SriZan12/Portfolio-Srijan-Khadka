@@ -1,24 +1,27 @@
 # Srijan Khadka — Professional Portfolio
 
-A responsive portfolio for Android, Kotlin Multiplatform and API-driven software development.
+**Live:** https://srizan12.github.io/Portfolio-Srijan-Khadka/
 
-Built with HTML, CSS and JavaScript. No installation or build step is required.
+Android, Kotlin Multiplatform and API-driven software development.
 
-## Preview
+## Design credit
 
-Run `python -m http.server 8080` and visit `http://localhost:8080`.
+This portfolio closely adapts [Brittany Chiang's v4 design](https://v4.brittanychiang.com/), using the [MIT-licensed source](https://github.com/bchiang7/v4). Copyright (c) 2018 Brittany Chiang. The original license is included in `LICENSE`, and visible attribution is retained in the footer.
 
-## Publish
+The design is implemented as static HTML/CSS/JavaScript with Srijan's own content, original project illustrations, and free Inter/Roboto Mono font replacements. It is not a pixel-identical copy.
 
-Enable GitHub Pages in Settings → Pages. Choose **Deploy from a branch**, **main**, **/(root)**, then Save.
+## Preview and deploy
 
-Expected URL after publication: https://srizan12.github.io/Portfolio-Srijan-Khadka/
+Run `python -m http.server 8080` and visit `http://localhost:8080`. No install or build step is required for the website.
+
+GitHub Pages publishes the root of `main`. Future changes to this branch deploy automatically.
 
 ## Edit
 
-- `index.html`: portfolio content
+- `index.html`: content, employers and projects
 - `styles.css`: appearance and responsive layout
-- `app.js`: project filters, navigation and email copy
+- `app.js`: employer tabs, mobile navigation and interactions
+- `assets/`: original project illustrations
 - `resume.html`: printable résumé
 
-Project illustrations are abstract artwork. Content reflects the résumé supplied in October 2026.
+Personal content reflects the résumé supplied in October 2026. Project artwork is abstract illustration, not product screenshots.
