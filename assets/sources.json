@@ -49,9 +49,9 @@
   },
   "srisu": "Unreleased. Text wordmark used because the repository app icon is a framework default, not confirmed SriSu branding.",
   "aboutIllustration": {
-    "file": "about-programmer.webp",
+    "file": "about-programmer-back-view.webp",
     "generated": "2026-10-27",
     "tool": "Built-in image generation",
-    "description": "Fictional stylized programmer at a desk, in navy and mint; not a personal photograph."
+    "description": "Fictional stylized programmer viewed from behind, face hidden, in a navy and mint workspace; not a personal photograph."
   }
 }
