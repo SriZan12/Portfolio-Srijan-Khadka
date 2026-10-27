@@ -1,20 +1,30 @@
 'use strict';
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('#mobile-menu');
+let menuDestination = null;
 function closeMenu() { if (menu.open) menu.close(); }
 menuButton.addEventListener('click', () => {
+  menuDestination = null;
   menu.showModal();
   menuButton.setAttribute('aria-expanded', 'true');
   document.body.style.overflow = 'hidden';
 });
 menu.querySelector('.menu-close').addEventListener('click', closeMenu);
 menu.addEventListener('click', (event) => {
-  if (event.target === menu || event.target.closest('a')) closeMenu();
+  const link = event.target.closest('a');
+  if (link?.getAttribute('href').startsWith('#')) {
+    menuDestination = document.getElementById(link.getAttribute('href').slice(1));
+  }
+  if (event.target === menu || link) closeMenu();
 });
 menu.addEventListener('close', () => {
   menuButton.setAttribute('aria-expanded', 'false');
   document.body.style.overflow = '';
-  menuButton.focus({ preventScroll: true });
+  if (menuDestination) {
+    menuDestination.setAttribute('tabindex', '-1');
+    menuDestination.focus({ preventScroll: true });
+    menuDestination = null;
+  } else menuButton.focus({ preventScroll: true });
 });
 const mobileLayout = window.matchMedia('(max-width: 768px)');
 mobileLayout.addEventListener('change', (event) => { if (!event.matches) closeMenu(); });
@@ -29,7 +39,17 @@ function selectTab(index, focus = false) {
     document.getElementById(tab.getAttribute('aria-controls')).hidden = !selected;
   });
   if (focus) tabs[index].focus({ preventScroll: true });
+  if (tabList.getAttribute('aria-orientation') === 'horizontal') {
+    const tab = tabs[index];
+    tabList.scrollLeft = tab.offsetLeft - (tabList.clientWidth - tab.offsetWidth) / 2;
+  }
 }
+document.querySelectorAll('[data-employer]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const index = tabs.findIndex((tab) => tab.id === `tab-${link.dataset.employer}`);
+    if (index !== -1) selectTab(index);
+  });
+});
 tabs.forEach((tab, index) => {
   tab.addEventListener('click', () => selectTab(index));
   tab.addEventListener('keydown', (event) => {

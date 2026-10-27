@@ -1,0 +1,51 @@
+{
+  "verified": "2026-10-27",
+  "logos": {
+    "remit123": {
+      "name": "Remit123",
+      "seller": "Walcy Inc.",
+      "store": "https://apps.apple.com/us/app/remit123/id6769648048?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/26/38/97263822-b963-3eb1-40ed-9d7c21b1201c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "file": "remit123.jpg",
+      "android": "https://play.google.com/store/apps/details?id=ca.remit123",
+      "ios": "https://apps.apple.com/app/id6769648048"
+    },
+    "trip-turbo": {
+      "name": "Trip Turbo",
+      "seller": "Trip Turbo",
+      "store": "https://apps.apple.com/us/app/trip-turbo/id6471469699?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/e2/5b/f9e25bbe-28ef-abd0-e07e-8cabebe88560/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "file": "trip-turbo.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.pathway.tripturbo.android",
+      "ios": "https://apps.apple.com/app/id6471469699"
+    },
+    "geokrishi": {
+      "name": "Geokrishi Farm (जियो-कृषि)",
+      "seller": "PATHWAY TECHNOLOGIES AND SERVICES",
+      "store": "https://apps.apple.com/us/app/geokrishi-farm-%E0%A4%9C-%E0%A4%AF-%E0%A4%95-%E0%A4%B7/id1639308709?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/59/d5/b859d5fd-bbca-e55b-e597-7f5282ce1177/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "file": "geokrishi.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.pathway.geokrishi_farm",
+      "ios": "https://apps.apple.com/app/id1639308709"
+    },
+    "callbreak": {
+      "name": "Callbreak : Card game",
+      "seller": "Teslatech",
+      "store": "https://apps.apple.com/us/app/callbreak-card-game/id1046460939?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/52/84/3c5284a8-d10e-57f6-96cf-12ef0eaa8755/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "file": "callbreak.jpg",
+      "android": "https://play.google.com/store/apps/details?id=io.teslatech.callbreak",
+      "ios": "https://apps.apple.com/app/id1046460939"
+    },
+    "callbreak-lite": {
+      "name": "Callbreak Lite",
+      "seller": "Teslatech",
+      "store": "https://apps.apple.com/us/app/callbreak-lite/id6754635687?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/58/9f/44589fe0-de63-f73d-ec40-e2962f34d6bd/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "file": "callbreak-lite.jpg",
+      "android": "https://play.google.com/store/apps/details?id=np.com.teslatech.callbreaklite",
+      "ios": "https://apps.apple.com/app/id6754635687"
+    }
+  },
+  "srisu": "Unreleased. Text wordmark used because the repository app icon is a framework default, not confirmed SriSu branding."
+}
