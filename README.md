@@ -10,6 +10,8 @@ This portfolio closely adapts [Brittany Chiang's v4 design](https://v4.brittanyc
 
 The design is implemented as static HTML/CSS/JavaScript with Srijan's own content and free Inter/Roboto Mono font replacements. It is not a pixel-identical copy. Published projects use official app icons and direct Android/iOS store links. Logos belong to their respective owners; their sources are recorded in `assets/sources.json`.
 
+The About Me image is an AI-generated illustration of a fictional programmer, created for this portfolio. It replaces the initials graphic and is delivered as a 768px WebP with accessible alternative text and reserved dimensions.
+
 ## Preview and deploy
 
 Run `python -m http.server 8080` and visit `http://localhost:8080`. No install or build step is required for the website.

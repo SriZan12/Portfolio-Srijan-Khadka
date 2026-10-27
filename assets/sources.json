@@ -47,5 +47,11 @@
       "ios": "https://apps.apple.com/app/id6754635687"
     }
   },
-  "srisu": "Unreleased. Text wordmark used because the repository app icon is a framework default, not confirmed SriSu branding."
+  "srisu": "Unreleased. Text wordmark used because the repository app icon is a framework default, not confirmed SriSu branding.",
+  "aboutIllustration": {
+    "file": "about-programmer.webp",
+    "generated": "2026-10-27",
+    "tool": "Built-in image generation",
+    "description": "Fictional stylized programmer at a desk, in navy and mint; not a personal photograph."
+  }
 }
